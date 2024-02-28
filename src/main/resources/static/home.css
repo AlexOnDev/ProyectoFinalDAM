@@ -1,0 +1,43 @@
+/* Root */
+:root {
+    --mainColor: #cda45e;
+}
+
+/* Body */ 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.about .about-right-sec .img-box {
+    position: absolute;
+    bottom: -7px;
+    left: -33px;
+    width: 179px;
+    height: 180px;
+    padding: 31px 10px;
+    background: var(--mainColor);
+    text-align: center;
+}
+.about .about-right-sec .img-box:before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 31px 34px;
+    border-color: transparent transparent var(--mainColor) transparent;
+    position: absolute;
+    top: -29px;
+    content: "";
+    right: 0;
+}
+@media (max-width: 575){
+    .about-des{
+        margin-bottom: 35px;
+    }
+}
+
+
+
+
+
+
+
+

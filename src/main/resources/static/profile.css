@@ -1,0 +1,45 @@
+.profile-header {
+    transform: translateY(5rem);
+}
+.profile-container {
+    background: #cda45e;
+    background: -webkit-linear-gradient(to right, #cda45e, #000);
+    background: linear-gradient(to right, #cda45e, #000);
+    min-height: 100vh;
+}
+
+
+/* FORM editProfile */
+.modal-header {
+	background-color: rgba(0,0,0,0.3);
+}
+.container-form {
+	margin: 15px;
+}
+.button-Icon {
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+.conatainer-icon {
+	margin: 5px;
+}
+.conatainer-nickname {
+	margin: 5px;
+}
+/* end FORM editProfile */
+
+/* Aviso */
+.container-fluid {
+		z-index: 2;	
+}
+
+.alert {
+ 	margin-left: 70%;
+	margin-top: 40px;
+	opacity: 0.70;
+	position: absolute;
+	z-index: 1;
+	transition: 2s;
+}
+/* end Aviso */
